@@ -1,0 +1,42 @@
+{% extends "manage.html" %}
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Student User</title>
+</head>
+
+<body>
+{% block content %}
+    {% block main %}
+      <div class content">
+        <div class="header" align="center">
+          <h3>Teachers & Students User</h3>
+        </div>
+          <table id="result-table" class="tablesorter table table table-striped">
+            <thead>
+            <tr>
+            <th> Name </th>
+            <th> email_id </th>
+            <th> Username </th>
+            <th> date_joined </th>
+            </tr>
+            </thead>
+            {% for user in User %}
+            <tbody>
+            <tr>
+                <td> {{ user.first_name }} {{ user.last_name }} </td>
+                <td> {{ user.email }} </td>
+                <td> {{ user.username }} </td>
+                <td> {{ user.date_joined }} </td>
+                </div>
+            </tr>
+            </tbody>
+            {% endfor %}
+          </table>
+      </div>
+    {% endblock %}
+{% endblock %}
+</body>
+</html>

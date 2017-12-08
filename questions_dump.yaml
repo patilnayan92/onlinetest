@@ -1,0 +1,178 @@
+---
+summary: C - I\O Declaration
+type: mcq
+language: c
+description: "What will be the output of following program ?<br>\r\n#include <stdio.h><br>int\
+  \ main(){<br>static char a;<br>static long b;<br>int c;<br>\r\n  printf(\"%d,%d,%d\"\
+  ,a,b,c);<br>return 0;<br> }"
+
+points: 2.0
+testcase:
+- test_case_type: mcqtestcase
+  options: 0,0,0
+  correct: false
+- test_case_type: mcqtestcase
+  options: Garbage,Garbage,Garbage
+  correct: false
+- test_case_type: mcqtestcase
+  options: Garbage,Garbage,0
+  correct: false
+- test_case_type: mcqtestcase
+  options: 0,0,Gargabe
+  correct: true
+active: true
+files: []
+grade_assignment_upload: false
+partial_grading: false
+snippet: ''
+tags:
+- C
+- Prgramming
+- Input Output Declaration
+
+---
+summary: C - I\O Declaration1
+type: mcq
+language: c
+description: What will be the output of following program ? <br>#include <stdio.h><br>void
+  main() { <br> unsigned char c=290; <br> printf("%d",c); <br>  }
+points: 2.0
+testcase:
+- test_case_type: mcqtestcase
+  options: 34
+  correct: false
+- test_case_type: mcqtestcase
+  options: 290
+  correct: false
+- test_case_type: mcqtestcase
+  options: Garbage
+  correct: false
+- test_case_type: mcqtestcase
+  options: ERROR
+  correct: true
+active: true
+files: []
+grade_assignment_upload: false
+partial_grading: false
+snippet: ''
+tags:
+- C
+- Prgramming
+- Input Output Declaration1
+
+---
+summary: C - I\O Declaration2
+type: mcq
+language: c
+description: "Which is the valid identifier (variable name) to store student’s age?"
+points: 2.0
+testcase:
+- test_case_type: mcqtestcase
+  options: int student-age;
+  correct: false
+- test_case_type: mcqtestcase
+  options: int student_age;
+  correct: true
+- test_case_type: mcqtestcase
+  options: int -age;
+  correct: false
+- test_case_type: mcqtestcase
+  options: int _age;
+  correct: false
+active: true
+files: []
+grade_assignment_upload: false
+partial_grading: false
+snippet: ''
+tags:
+- C
+- Prgramming
+- Input Output Declaration2
+
+---
+summary: C - I\O Declaration3
+type: mcq
+language: c
+description: "What type of declaration is it?\r\nunsigned num;"
+points: 2.0
+testcase:
+- test_case_type: mcqtestcase
+  options: num is an unsigned integer.
+  correct: true
+- test_case_type: mcqtestcase
+  options: num is an unsigned character.
+  correct: false
+- test_case_type: mcqtestcase
+  options: num is an unsigned float.
+  correct: false
+- test_case_type: mcqtestcase
+  options: It’s an invalid declaration.
+  correct: false
+active: true
+files: []
+grade_assignment_upload: false
+partial_grading: false
+snippet: ''
+tags:
+- C
+- Prgramming
+- Input Output Declaration3
+
+---
+summary: C - Preprocessor
+type: mcq
+language: c
+description: "In which stage the following code.<br>\r\n#include<stdio.h><br>gets replaced by the contents of the file stdio.h<br>"
+points: 2.0
+testcase:
+- test_case_type: mcqtestcase
+  options: During editing
+  correct: false
+- test_case_type: mcqtestcase
+  options: During linking
+  correct: false
+- test_case_type: mcqtestcase
+  options: During execution
+  correct: false
+- test_case_type: mcqtestcase
+  options: During preprocessing
+  correct: true
+active: true
+files: []
+grade_assignment_upload: false
+partial_grading: false
+snippet: ''
+tags:
+- C
+- Prgramming
+- Preprocessor
+
+---
+summary: C - Files
+type: mcq
+language: c
+description: "Function fopen() with the mode "r+" tries to open thefile for _______"
+points: 2.0
+testcase:
+- test_case_type: mcqtestcase
+  options: reading and writing
+  correct: true
+- test_case_type: mcqtestcase
+  options: reading and writing new records
+  correct: false
+- test_case_type: mcqtestcase
+  options: only for reading
+  correct: false
+- test_case_type: mcqtestcase
+  options: it works only for directions
+  correct: false
+active: true
+files: []
+grade_assignment_upload: false
+partial_grading: false
+snippet: ''
+tags:
+- C
+- Prgramming
+- Files
+

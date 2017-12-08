@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+recursive-include nayan/static *
+recursive-include nayan/templates *
+recursive-include nayan/demo_templates *
+recursive-include nayan/management *
+recursive-include nayan/output *
+recursive-include nayan/fixtures *
+recursive-include nayan/docs *

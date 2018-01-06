@@ -69,7 +69,7 @@ WSGI_APPLICATION = 'online_test.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'onlinetestdb',
+        'NAME': 'db_name',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',

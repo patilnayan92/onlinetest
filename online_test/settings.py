@@ -69,10 +69,10 @@ WSGI_APPLICATION = 'online_test.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'patilnayan092$onlinetestdb',
-        'USER': 'patilnayan092',
-        'PASSWORD': 'Evolet123',
-        'HOST': 'patilnayan092.mysql.pythonanywhere-services.com',
+        'NAME': 'onlinetestdb',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
         'PORT': '',
     },
 }
@@ -136,7 +136,7 @@ REPLY_EMAIL = 'your_reply_email'
 # This url will be used in email verification to create activation link.
 # Add your hosted url to this variable.
 # For example https://127.0.0.1:8000 or 127.0.0.1:8000
-PRODUCTION_URL = 'patilnayan092.pythonanywhere.com'
+PRODUCTION_URL = 'https://127.0.0.1:8000'
 
 # Set this variable to <False> once the project is in production.
 # If this variable is kept <True> in production, email will not be verified.
